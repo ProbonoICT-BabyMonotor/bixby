@@ -1,11 +1,16 @@
 result-view {
   match: message (this)
-
+  
+  message {
+    template ("네. 침대를 제어할게요.") {
+      speech ("네. 침대를 제어할게요.")
+    }
+  }
 
   render {
     list-of (this) {
       where-each (item) {
-        macro (login-summary) {
+        macro (backdraft-summary) {
           param (login) {
             expression (this)
           }

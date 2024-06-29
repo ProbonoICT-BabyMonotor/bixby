@@ -1,4 +1,4 @@
-macro-def (login-summary) {
+macro-def (backdraft-summary) {
   params {
     param (login) {
       type (message)
@@ -12,7 +12,7 @@ macro-def (login-summary) {
       title-area {
         slot1 {
           text {
-            style (Title_M)
+            style (Title_L)
             value {
               template ("#{value (login)}")
             }

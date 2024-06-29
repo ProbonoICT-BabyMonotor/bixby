@@ -11,11 +11,11 @@ export default function () {
   }
 
   let params = {
-    memberPhone: secret.get("id"),
+    memberId: secret.get("id"),
     memberPassword: secret.get("pw")
   }
 
-  var response = http.postUrl(secret.get("url"), params, options);
+  var response = http.postUrl(secret.get("url")+"/login", params, options);
 
   console.log(response['message']);
   return response['message'];

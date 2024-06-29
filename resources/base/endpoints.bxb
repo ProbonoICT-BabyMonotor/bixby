@@ -4,5 +4,10 @@ endpoints {
       accepted-inputs ()
       local-endpoint (Login.js)
     }
+    
+    action-endpoint (backdraft){
+      accepted-inputs ()
+      local-endpoint (backdraft.js)
+    }
   }
 }
