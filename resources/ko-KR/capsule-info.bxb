@@ -1,4 +1,4 @@
 capsule-info {
   display-name ("아기자기")
-  icon-asset (images/icons/bixby_launcher.png)
+  icon-asset (images/icons/icon.png)
 }

@@ -1,13 +1,27 @@
 endpoints {
   action-endpoints {
-    action-endpoint (Login){
+    action-endpoint (Login) {
       accepted-inputs ()
       local-endpoint (Login.js)
     }
-    
-    action-endpoint (backdraft){
+    action-endpoint (backdraft) {
       accepted-inputs ()
       local-endpoint (backdraft.js)
+    }
+
+    action-endpoint (brup) {
+      accepted-inputs ()
+      local-endpoint (brup.js)
+    }
+
+    action-endpoint (fix) {
+      accepted-inputs ()
+      local-endpoint (fix.js)
+    }
+
+    action-endpoint (swing) {
+      accepted-inputs ()
+      local-endpoint (swing.js)
     }
   }
 }

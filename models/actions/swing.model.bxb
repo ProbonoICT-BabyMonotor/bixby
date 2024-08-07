@@ -1,0 +1,5 @@
+action (swing) {
+  description (GET Reminder from server)  //설명 부분
+  type(Search)  //액션의 타입
+  output (message) //아까 만든 컨셉
+}
